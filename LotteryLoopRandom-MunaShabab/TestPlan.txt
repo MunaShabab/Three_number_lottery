@@ -1,0 +1,16 @@
+*created the form with all the controls and tested it 
+*created the click event handler for the goButton and started with declaring the variables and validating the numbers from the user
+*I tested that with entering wrong dat type ( letters, or leaving it blank)
+*I also added a condition that the numbers would be between 0 and 9. I tested that as well.
+*I genreted three random numbers and compared them to the winning number and, in case of a match, displayed the number with a green backcolor
+(I tested few shades of green :)), otherwise I changed the backColor to red
+*at first I compared the three digits individually, later I combined them in one number and compared it to the winning number and tested that
+*displayed all the lables and added items to the listBox and tested it
+*I added the Items.Clear to the begining of the handler to wipe out the listBox first before new items are added, it worked
+*I had generic messages about success and failure, I adjusted them with more specific data and tested that
+the number of attempts was showing as 1001, so I had to adjust the loop condition and tested it.
+* I changed the pay to a variable instead of a hard coded number
+*created the event handler for the clearButton and tested it, the backColor was still showing from previous results so I had to reset that.
+*when testing for the last time I noticed that the gnerated number was not displaying completely in the listBox, so I changed the format to include
+leading zeros and that fixed the problem.
+
